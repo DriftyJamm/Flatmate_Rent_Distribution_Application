@@ -13,7 +13,7 @@ class pdfReport:
 
         pdf = FPDF(orientation = 'P', unit = 'pt', format = 'A4')
         pdf.add_page()
-        pdf.image("house.jpg", w=30, h=30)
+        pdf.image("house.jpg", w=50, h=50)
         pdf.set_font(family = 'Times', size = 24, style = 'B')
         pdf.cell(w = 0, h = 80, txt = "Flatmates Bill", border = 0, align = "C", ln = 1)
 
